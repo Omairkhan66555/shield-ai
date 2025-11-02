@@ -52,10 +52,4 @@ Then open the local URL Streamlit prints (usually http://localhost:8501).
 - Model not found message:
   - The app tries these in order: deepfake_detector_mobilenet_subset.keras → deepfake_detector_simple_subset.keras → deepfake_detector_simple.keras → deepfake_detector_model.keras → deepfake_detector_model.h5. Keep exactly one to avoid confusion.
 
-## Notes on model size and GitHub
-- GitHub blocks files > 100MB. If your model is larger:
-  - Prefer using Git LFS, or
-  - Publish the model under GitHub Releases and download at runtime.
 
-## License
-This project is for educational use. Replace this section with your chosen license if you intend to publish.
