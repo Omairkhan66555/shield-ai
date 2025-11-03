@@ -52,4 +52,6 @@ Then open the local URL Streamlit prints (usually http://localhost:8501).
 - Model not found message:
   - The app tries these in order: deepfake_detector_mobilenet_subset.keras → deepfake_detector_simple_subset.keras → deepfake_detector_simple.keras → deepfake_detector_model.keras → deepfake_detector_model.h5. Keep exactly one to avoid confusion.
 
+## DEMO 
+Youtube link: https://youtu.be/kigc97-8dPw
 
